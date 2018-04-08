@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MyMovies</string>
+    <string name="search">חפש</string>
+    <string name="show">הראה</string>
+    <string name="OK">סבבה</string>
+    <string name="Cancel">בטל</string>
+    <string name="delete">מחק</string>
+    <string name="edit">ערוך</string>
+    <string name="Edit">ערוך</string>
+    <string name="subject">נושא</string>
+    <string name="decsription">תקציר</string>
+    <string name="Url">קישור לתמונה</string>
+    <string name="description">תקציר</string>
+</resources>

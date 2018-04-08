@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/menuItemSettings"
+        android:title=""
+        app:showAsAction="always" />
+
+    <group
+        android:id="@+id/MainMenu">
+
+        <item
+            android:id="@+id/DeleteAll"
+            android:checked="true"
+            android:title="Delete All Movies" />
+
+
+        <item
+            android:id="@+id/Exit"
+            android:title="Exit" />
+
+
+    </group>
+
+    <item android:id="@+id/EditMenu"
+        android:title=""
+        android:icon="@drawable/plus_big_circle_512"
+        app:showAsAction="always" >
+        <menu>
+            <item
+                android:id="@+id/Manual"
+                android:title="Manual Edit" />
+
+            <item
+                android:id="@+id/Internet"
+                android:title="Edit from Internet" />
+
+
+        </menu>
+
+    </item>
+
+</menu>
